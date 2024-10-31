@@ -102,25 +102,23 @@ ALT_RPC_LIST=https://api.mainnet-beta.solana.com,https://solana-mainnet.genesysg
 
 ### Explanation of Important Modifications and Notes 💡
 
-1. The main reason for choosing open source is that I hope to receive any substantial improvement suggestions, which are incredibly valuable to me.
+1. Running the old repository requires holding 10K ARB tokens in the wallet. I removed this check (since I don’t like any restrictions, although I did buy some ARB tokens as a gesture of personal support).
 
-2. Running the old repository requires holding 10K ARB tokens in the wallet. I removed this check (since I don’t like any restrictions, although I did buy some ARB tokens as a gesture of personal support).
+2. Yarn has been retained as it is faster and more secure than npm. Additionally, it helps maintain the usage habits of users from the old version, allowing for a smoother transition.
 
-3. Yarn has been retained as it is faster and more secure than npm. Additionally, it helps maintain the usage habits of users from the old version, allowing for a smoother transition.
+3. Some dependencies affecting program performance have been version-adjusted for perfect compatibility. Over the past month, it has performed exceptionally well (bringing me over $20,000 in profit).
 
-4. Some dependencies affecting program performance have been version-adjusted for perfect compatibility. Over the past month, it has performed exceptionally well (bringing me over $20,000 in profit).
+4. Having a reliable RPC and server is essential. I use Shyft’s paid RPC and run it on a high-performance Linux server (Ubuntu 22.04). Mainly, since I haven’t finished my graduate studies, running it on my laptop isn’t really practical…
 
-5. Having a reliable RPC and server is essential. I use Shyft’s paid RPC and run it on a high-performance Linux server (Ubuntu 22.04). Mainly, since I haven’t finished my graduate studies, running it on my laptop isn’t really practical…
+5. The main reason for choosing open source is that I hope to receive any substantial improvement suggestions, which are incredibly valuable to me.
 
-6. The main reason for choosing open source is that I hope to receive any substantial improvement suggestions, which are incredibly valuable to me.
+6. For anyone not very familiar with arbitrage or using this program for the first time, I recommend thoroughly testing various strategies until you find the most profitable one.
 
-7. For anyone not very familiar with arbitrage or using this program for the first time, I recommend thoroughly testing various strategies until you find the most profitable one.
+7. The reason my partner and I put time and effort into this is that the Solana market is booming right now, with excellent arbitrage opportunities. In practice, this is much better than token sniping, which is overcrowded and full of scams.
 
-8. The reason my partner and I put time and effort into this is that the Solana market is booming right now, with excellent arbitrage opportunities. In practice, this is much better than token sniping, which is overcrowded and full of scams.
+8. After completing the setup and running for the first time with `yarn start`, a `config.json` file will be generated. If you want to change the strategy, you can make some manual adjustments there. Later, simply use `yarn trade` to quickly start the preset strategy. Of course, this assumes you’ve found the optimal strategy. For instance, I currently have it running on a server 24/7, using pm2 to ensure long-term operation.
 
-9. After completing the setup and running for the first time with `yarn start`, a `config.json` file will be generated. If you want to change the strategy, you can make some manual adjustments there. Later, simply use `yarn trade` to quickly start the preset strategy. Of course, this assumes you’ve found the optimal strategy. For instance, I currently have it running on a server 24/7, using pm2 to ensure long-term operation.
-
-10. When setting up with `yarn start`, the token list may load slowly. If you attempt to configure using `↑` `↓` and `Enter` before the list is fully loaded, you may encounter errors. So, please wait a few seconds as shown in the image below…
+9. When setting up with `yarn start`, the token list may load slowly. If you attempt to configure using `↑` `↓` and `Enter` before the list is fully loaded, you may encounter errors. So, please wait a few seconds as shown in the image below…
 ![](.picture/wait.png)
 ![](.picture/okay.png)
 
