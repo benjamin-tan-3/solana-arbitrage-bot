@@ -48,7 +48,6 @@ All trades are stored in trades history and will be shown in the table. Table is
 
 ![](.picture/history.gif)
 
-· [back to top](#nav) ·
 
 
 # quickstart
@@ -127,7 +126,6 @@ ALT_RPC_LIST=https://api.mainnet-beta.solana.com,https://solana-mainnet.genesysg
 
 > Note: The program is currently working fine. If you encounter any issues during use, please review the instructions a few times (they’re already very clear). If problems persist, feel free to contact me.
 
-· [back to top](#nav) ·
 
 ### some tips 👀
 
@@ -149,7 +147,6 @@ ALT_RPC_LIST=https://api.mainnet-beta.solana.com,https://solana-mainnet.genesysg
 
 😬 Don't like the intro? You can disable it in the .env file with `SKIP_INTRO=true`
 
-· [back to top](#nav) ·
 
 # hotkeys
 
@@ -173,7 +170,6 @@ While the bot is running, you can use some hotkeys that will change the behaviou
 
 `[S]` - simulation mode switch (enable/disable trading)
 
-· [back to top](#nav) ·
 
 ## Balance management and error handling
 
@@ -273,21 +269,18 @@ This setting can be found in the ./src/bot/index.js file as shown below:
 	});
 
 
-· [back to top](#nav) ·
 
 ## contributing
 
 A big thank you to all ARB Protocol developers and everyone who has contributed to the current version!
-
 <a href="">
   <img alt="contributors" src="https://opencollective.com/affine/contributors.svg?width=890&button=false" />
 </a>
 
 If you have any ideas or suggestions for improvement while using it, please feel free to contact me.
+
 `Discord: muhammad_rabby`
 `Email: web3muhammadrabby@gmail.com`
-
-· [back to top](#nav) ·
 
 
 ## risk disclaimer
@@ -296,5 +289,3 @@ If you have any ideas or suggestions for improvement while using it, please feel
 > This software is provided as is, without any warranty of any kind, express or implied, including but not limited to the warranties
 > of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors be liable for any claim, 
 > damages, or other liability.
-
-· [back to top](#nav) ·
