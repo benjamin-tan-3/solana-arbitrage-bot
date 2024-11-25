@@ -1,10 +1,7 @@
 # Solana Arbitrage Bot
 
 This bot is an open-source CLI tool that allows you to automate your crypto trading strategies on the Solana blockchain. The bot is currently written in JS and uses the Jupiter V4 SDK to find routes and execute trades.This project is built on the ARB Protocol, with fixes and optimizations applied. Their old repository is outdated and no longer functions properly.
-
-
 ## features
-
 - [x] mainnet network support
 - [x] all **Jupiter Aggregator** coins
 - [x] easy to use **Config Wizard**
